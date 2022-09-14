@@ -97,7 +97,7 @@ exit(EXIT_FAILURE);
 instruction_t get_instruction(char *opcode, int line_number,
 char *line, FILE *fl, stack_t *top)
 {
-instruction_t instructions[] = {{"push", push}, {"pall", pall}, 
+instruction_t instructions[] = {{"push", push}, {"pall", pall},
 {"pint", pint}, {"pop", pop}, {"swap", swap}, {"add", add}, {"nop", nop}};
 int length = 0, i = 0;
 
